@@ -1,0 +1,38 @@
+@keyframes slider {
+  0% {
+    transform: translate(0%, -50%);
+  }
+  100% {
+    transform: translate(-20%, -50%);
+  }
+}
+
+.container-main-images {
+  height: 100vh;
+  width: 100vw;
+  background-color: #151515;
+  margin: 0rem;
+  overflow: hidden;
+  position: relative;
+}
+
+#image-track > .image {
+  width: 30rem;
+  height: 50vmin;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2rem;
+}
+
+#image-track {
+  display: flex;
+  gap: 4vmin;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.image-animation {
+  animation: slider 3s ease-in-out forwards;
+}

@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    /> -->
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/tpi_logo/tpi_logo.png" />
+    <link rel="apple-touch-icon" href="img/tpi_logo/tpi_logo.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="css/queries.css" /> -->
+    <link rel="stylesheet" href="css/image.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/imageAnimation.js"></script>
+    <script defer src="js/allAnimation.js"></script>
+
+    <title>TPI</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="./">
+        <img class="logo" alt="Omnifood logo" src="img/tpi_logo/tpi_logo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link active-header" href="./index.html">Home</a>
+          </li>
+          <li><a class="main-nav-link" href="./service.html">Services</a></li>
+          <li><a class="main-nav-link" href="./work.html">Work</a></li>
+          <li><a class="main-nav-link" href="./contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-img-box">
+            <div class="marquee-container">
+              <h1 class="heading-primary marquee">
+                GHAR SAJANA ACCHA LAGTA HAI
+              </h1>
+            </div>
+          </div>
+          <div class="hero-img-container">
+            <img
+              id="fade-image"
+              src="img/hero.png"
+              draggable="false"
+              class="hero-img"
+              alt="A paint brush"
+            />
+          </div>
+          <div class="hero-text-box">
+            <div class="">
+              <p class="hero-connect hidden-animation">
+                ALL-IN-ONE<br />PAINTING SOLUTION
+              </p>
+              <a
+                href="#cta"
+                class="btn btn--full margin-right-sm hidden-animation"
+                >CONNECT</a
+              >
+            </div>
+
+            <!-- <a href="#how" class="btn btn--outline">Learn more &darr;</a> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section-description">
+        <div class="container">
+          <p class="heading-description hidden-animation">
+            While choosing the best colors, materials, and house painters while
+            maintaining the safety of your family could prove a challenging
+            task, painting your home is exhilarating. Here is where we step in
+            with our mission to make painting your home a safe and enjoyable
+            experience! Reframe your home as a huge canvas using Top Painting
+            Safe Services.
+          </p>
+          <p class="heading-description hidden-animation">
+            Start with asking any questions you may have during the consultation
+            with
+            <span class="strong-description"> TOP PAINTING INDIA </span>
+            Safe Painting Services.
+          </p>
+        </div>
+      </section>
+      <section class="section-form-cta" id="cta">
+        <!-- <div class="container"> -->
+        <div class="cta container">
+          <div class="cta-img-box">
+            <img
+              class="form-image"
+              draggable="false"
+              src="img/form/mobile.png"
+            />
+          </div>
+          <div class="cta-image-box"></div>
+          <div class="cta-text-box">
+            <div class="cta-text-box-border">
+              <h2 class="heading-form-secondary">BOOK YOUR APPOINTMENT</h2>
+              <!-- <p class="cta-text"></p> -->
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <!-- <label for="full-name">Full Name</label> -->
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="email">Email address</label> -->
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="full-name">Full Name</label> -->
+                  <input
+                    type="text"
+                    placeholder="Mobile"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="email">Email address</label> -->
+                  <input
+                    type="email"
+                    placeholder="Pincode"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <button class="btn btn--form">ENQUIRE NOW</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section class="section-service" id="how">
+        <div class="container">
+          <h2 class="heading-service hidden-animation">WHY CHOOSE US?</h2>
+        </div>
+        <div class="container grid grid--5-cols">
+          <div class="hidden-animation-slide slide">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                draggable="false"
+                src="img/logos/Layer1.png"
+              />
+            </div>
+            <p class="feature-text">Trained Professional</p>
+          </div>
+          <div class="hidden-animation-slide slide">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                draggable="false"
+                src="img/logos/Layer2.png"
+              />
+            </div>
+
+            <p class="feature-text">Personalized Colour Consultation</p>
+          </div>
+          <div class="hidden-animation-slide slide">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                draggable="false"
+                src="img/logos/Layer3.png"
+              />
+            </div>
+            <p class="feature-text">Safety Protocol</p>
+          </div>
+          <div class="hidden-animation-slide slide">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                draggable="false"
+                src="img/logos/Layer4.png"
+              />
+            </div>
+            <p class="feature-text">Supervised Painting</p>
+          </div>
+          <div class="hidden-animation-slide slide">
+            <div class="feature">
+              <img
+                class="feature-icon"
+                draggable="false"
+                src="img/logos/Layer5.png"
+              />
+            </div>
+            <p class="feature-text">Technical Site Evaluation</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-our-services" id="meals">
+        <div class="container-service">
+          <div class="grid-service grid--1-2-cols">
+            <div class="our-service-container">
+              <h2 class="heading-service-secondary hidden-animation">
+                OUR<br />SERVICE
+              </h2>
+            </div>
+            <div class="service first-service">
+              <p class="hidden-animation">TOP INTERIOR<br />SERVICES</p>
+              <div class="arrow">
+                <img src="img/arraow.png" class="arrow-service" alt="" />
+              </div>
+            </div>
+            <div class="service second-service">
+              <p class="hidden-animation">TOP EXTERIOR<br />SERVICES</p>
+              <div class="arrow">
+                <img src="img/arraow.png" class="arrow-service" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="grid-service grid--1-2-cols">
+            <div class="service third-service">
+              <p class="hidden-animation">TOP WOOD<br />COATING</p>
+              <div class="arrow">
+                <img src="img/arraow.png" class="arrow-service" alt="" />
+              </div>
+            </div>
+            <div class="service fourth-service">
+              <p class="hidden-animation">TOP WALL <br />TEXTURES</p>
+              <div class="arrow">
+                <img src="img/arraow.png" class="arrow-service" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="grid-service grid--1-2-cols">
+            <div class="service all-service">
+              <a href="./service.html" class="hidden-animation">ALL SERVICES</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-creativity" id="pricing">
+        <div class="container-creativity">
+          <h2 class="heading-creativity">
+            <span class="colors-change-0"> BRING YOUR </span>
+            <br />
+            <span class="colors-change-1"> IDEAS TO LIFE </span>
+            <br />
+            <span class="colors-change-2"> WITH OUR </span>
+            <br />
+            <span class="colors-change-3"> BOUNDLESS </span>
+            <br />
+            <span class="colors-change-4"> CREATIVITY. </span>
+            <br />
+            <span class="colors-change-5"> TURN </span>
+            <br />
+            <span class="colors-change-6"> IMAGINATION </span>
+            <br />
+            <span class="colors-change-7"> INTO REALITY. </span>
+          </h2>
+        </div>
+      </section>
+
+      <section class="section-top-service" id="top-service">
+        <div class="top-service-grid">
+          <div class="div top-service-logo-container">
+            <div class="top-service-inside p">
+              <div>
+                <p>TOP DIAMOND</p>
+                <p class="second-line">PAINTING SERVICES</p>
+              </div>
+              <div>
+                <div class="stars seven-stars">
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                </div>
+                <p class="package">7 STAR PACKAGE</p>
+              </div>
+              <div class="border-service">
+                <p>65rs/sqft</p>
+              </div>
+              <div>
+                <a class="Services-inside-link" href="./ourplan.html"
+                  >CLICK TO KNOW MORE -></a
+                >
+              </div>
+            </div>
+            <div class="arrow">
+              <img src="img/1stService.png" class="arrow-top-service" alt="" />
+            </div>
+            <div class="arrow">
+              <p class="number-top-service">01.</p>
+            </div>
+          </div>
+          <div class="div top-service-logo-container">
+            <div class="top-service-inside p">
+              <div>
+                <p>TOP PLATINUM</p>
+                <p class="second-line">PAINTING SERVICES</p>
+              </div>
+              <div>
+                <div class="stars five-stars">
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image" src="./img/white-star.png" />
+                  <img class="star-image op" src="./img/white-star.png" />
+                  <img class="star-image op" src="./img/white-star.png" />
+                </div>
+                <p class="package">5 STAR PACKAGE</p>
+              </div>
+              <div class="border-service">
+                <p>50rs/sqft</p>
+              </div>
+              <div>
+                <a class="Services-inside-link" href="./ourplan.html"
+                  >CLICK TO KNOW MORE -></a
+                >
+              </div>
+            </div>
+            <div class="arrow">
+              <img src="img/2ndService.png" class="arrow-top-service" alt="" />
+            </div>
+            <div class="arrow">
+              <p class="number-top-service">02.</p>
+            </div>
+          </div>
+          <div class="div top-service-logo-container">
+            <div class="top-service-inside alternate-service p">
+              <div>
+                <p>TOP GOLD</p>
+                <p class="second-line">PAINTING SERVICES</p>
+              </div>
+              <div>
+                <div class="stars three-stars">
+                  <img class="star-image" src="./img/yellow-start.png" />
+                  <img class="star-image" src="./img/yellow-start.png" />
+                  <img class="star-image" src="./img/yellow-start.png" />
+                  <img class="star-image op" src="./img/white-star.png" />
+                  <img class="star-image op" src="./img/white-star.png" />
+                  <img class="star-image op" src="./img/white-star.png" />
+                  <img class="star-image op" src="./img/white-star.png" />
+                </div>
+                <p class="package">3 STAR PACKAGE</p>
+              </div>
+              <div class="border-service">
+                <p>40rs/sqft</p>
+              </div>
+              <div>
+                <a class="Services-inside-link" href="./ourplan.html"
+                  >CLICK TO KNOW MORE -></a
+                >
+              </div>
+            </div>
+            <div class="arrow">
+              <img src="img/3rdService.png" class="arrow-top-service" alt="" />
+            </div>
+            <div class="arrow">
+              <p class="number-top-service">03.</p>
+            </div>
+          </div>
+        </div>
+        <div class="top-service-flex">
+          <h2>
+            <!-- <span class="dot purple-dot">.</span> -->
+            OUR TOP <br />
+            PLANS
+            <!-- <span class="dot green-dot">.</span> -->
+          </h2>
+        </div>
+      </section>
+
+      <section class="section-main-video">
+        <div class="main-video-grid">
+          <div class="main-video-details">
+            <div>
+              <p class="hidden-animation">
+                With the mission of providing 100% customer satisfaction, Paint
+                My Walls was founded with the goal of making a simple paint job
+                in to a memorable experience.
+              </p>
+              <a
+                href="./img/TPI CATALOGUE.pdf"
+                class="margin-right-sm btn-download hidden-animation"
+                >DOWNLOAD BROCHURE</a
+              >
+            </div>
+          </div>
+          <div class="brochure-img">
+            <div class="mobile-border"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-second-form-cta" id="cta">
+        <div class="cta-second form-container">
+          <div class="cta-second-text-box">
+            <div class="cta-second-text-box-border">
+              <h2 class="heading-form-secondary">BOOK YOUR APPOINTMENT</h2>
+              <!-- <p class="cta-text"></p> -->
+
+              <form class="cta-second-form" name="sign-up" netlify>
+                <div>
+                  <!-- <label for="full-name">Full Name</label> -->
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="email">Email address</label> -->
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="full-name">Full Name</label> -->
+                  <input
+                    type="text"
+                    placeholder="Mobile"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="email">Email address</label> -->
+                  <input
+                    type="email"
+                    placeholder="Pincode"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <button class="btn btn--form">ENQUIRE NOW</button>
+              </form>
+            </div>
+          </div>
+          <div class="form-bubble-container">
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-1">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/calendar-day-2.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  TWO YEAR <br />
+                  WARRANTY
+                </h2>
+              </div>
+            </div>
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-2">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/pantone.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  FREE COLOUR <br />
+                  CONSULTATION
+                </h2>
+              </div>
+            </div>
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-3">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/laser-meter.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  LASER <br />
+                  MEASUREMENT
+                </h2>
+              </div>
+            </div>
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-1">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/supervisor.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  DEDICATED <br />
+                  SUPERVISOR
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="form-percent-container">
+            <div class="form-percent percentageContainer">
+              <div class="percentage-container" id="percentageContainer1">
+                <div
+                  class="heading-second-form-secondary percentage-number"
+                  id="percentageNumber1"
+                >
+                  0
+                  <span class="percent-sign">%</span>
+                </div>
+              </div>
+              <p>Customer Repeat</p>
+            </div>
+            <div class="form-percent">
+              <div class="percentage-container" id="percentageContainer2">
+                <div
+                  class="percentage-number heading-second-form-secondary"
+                  id="percentageNumber2"
+                >
+                  0<span class="percent-sign">%</span>
+                </div>
+              </div>
+              <p>Quotation Confirmed</p>
+            </div>
+            <div class="form-percent">
+              <div class="percentage-container" id="percentageContainer3">
+                <div
+                  class="percentage-number heading-second-form-secondary"
+                  id="percentageNumber3"
+                >
+                  0<span class="percent-sign">%</span>
+                </div>
+              </div>
+              <p>Client Satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-information" id="section-information">
+        <div class="">
+          <div class="heading-information hidden-animation">
+            <p>
+              THE WORLD IS <br />
+              A COLOURFUL PLACE
+            </p>
+          </div>
+          <div class="subheading-information-container">
+            <div class="subheading-information hidden-animation">
+              <p>LET'S KEEP IT THAT WAY</p>
+              <p>LET'S KEEP IT THAT WAY</p>
+              <p>LET'S KEEP IT THAT WAY</p>
+              <p>LET'S KEEP IT THAT WAY</p>
+              <p>LET'S KEEP IT THAT WAY</p>
+              <p>LET'S KEEP IT THAT WAY</p>
+              <p>LET'S KEEP IT THAT WAY</p>
+              <p>LET'S KEEP IT THAT WAY</p>
+            </div>
+          </div>
+          <div class="heading-second-information hidden-animation">
+            <p>
+              LET TOP PAINTING INDIA BE YOUR BRUSH <br />
+              TO A WORLD FILLED WITH VIBRANT INSPIRATION
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer-heading hidden-animation">JOIN US</h2>
+        <p class="footer-subheading hidden-animation">
+          in the journey of transforming spaces and creating memories
+        </p>
+
+        <div class="footer-logo-container">
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img
+                src="img/footer/instagram.png"
+                class="original-image"
+                alt=""
+              />
+              <img
+                src="img/footer/instagramWhite.png"
+                class="hover-image"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img src="img/footer/linkd.png" class="original-image" alt="" />
+              <img src="img/footer/linkdWhite.png" class="hover-image" alt="" />
+            </a>
+          </div>
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img
+                src="img/footer/youtube.png"
+                class="original-image yt-size-fix"
+                alt=""
+              />
+              <img
+                src="img/footer/youtubeWhite.png"
+                class="hover-image yt-size-fix"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img
+                src="img/footer/facebook.png"
+                class="original-image fb-size-fix"
+                alt=""
+              />
+              <img
+                src="img/footer/facebookWhite.png"
+                class="hover-image fb-size-fix"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-end">
+          <div class="footer-link">
+            <div class="hidden-animation">
+              <p>CHAT WITH US</p>
+            </div>
+            <div class="footer-link-display hidden-animation">
+              <p>
+                <a href="/#">
+                  <img src="img//footer/telephone.png" />
+                  <p>+919969583396</p>
+                </a>
+              </p>
+            </div>
+            <div class="footer-link-display hidden-animation">
+              <p>
+                <a href="/#">
+                  <img src="img//footer/mail.png" />
+                  <p>Toppaintingindia@gmail.com</p>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="copyright hidden-animation">
+          Copyright &copy; <span class="year">2023</span> by TPI, Inc. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+    <button id="scroll-to-top" onclick="scrollToTop()">&uarr;</button>
+  </body>
+</html>

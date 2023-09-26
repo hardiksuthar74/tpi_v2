@@ -1,0 +1,89 @@
+body {
+  height: 100vh;
+  background-image: url("../img/plan/planbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.plan-container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 4rem;
+  font-size: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.arrow-container {
+  cursor: pointer;
+  border: #fff solid 2px;
+  display: inline-block;
+  padding: 1rem;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.icon-container {
+  width: 8rem;
+
+  > img {
+    width: 100%;
+  }
+}
+
+.plan-info {
+  padding-right: 20rem;
+  margin-top: 2rem;
+  font-size: 4rem;
+}
+
+.main-title {
+  color: #b5f145;
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.main-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.4rem;
+  margin-top: 4rem;
+  column-gap: 5em;
+  row-gap: 4rem;
+}
+
+.detail {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  > img {
+    width: 24%;
+  }
+}
+
+.book-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50rem;
+}
+
+.button button {
+  font-size: 1.8rem;
+  padding: 1.2rem 2rem;
+  background-color: #b5f145;
+  border: 1px;
+  border-radius: 1rem;
+}

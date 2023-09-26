@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs."
+    /> -->
+
+    <!-- Always include this line of code!!! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/tpi_logo/tpi_logo.png" />
+    <link rel="apple-touch-icon" href="img/tpi_logo/tpi_logo.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> -->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link rel="stylesheet" href="css/image.css" />
+
+    <link rel="stylesheet" href="css/service.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <script defer src="js/imageAnimation.js"></script>
+    <script defer src="js/serviceAnimation.js"></script>
+
+    <title>TPI</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="./">
+        <img class="logo" alt="Omnifood logo" src="img/tpi_logo/tpi_logo.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a class="main-nav-link" href="./index.html">Home</a>
+          </li>
+          <li>
+            <a class="main-nav-link active-header" href="./service.html"
+              >Services</a
+            >
+          </li>
+          <li><a class="main-nav-link" href="./work.html">Work</a></li>
+          <li><a class="main-nav-link" href="./contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-service-hero">
+        <div class="service-hero">
+          <div class="service-hero-img-box"></div>
+          <div class="service-hero-img-container">
+            <img
+              id="fade-image"
+              src="img/services/hero_service.png"
+              draggable="false"
+              class="service-hero-img"
+              alt="A paint brush"
+            />
+          </div>
+          <div class="service-hero-text-box">
+            <div class="">
+              <p class="service-hero-connect hidden-animation">
+                Residential & <br />
+                Commercial Painting <br />
+                Services
+              </p>
+              <p class="service-sub-hero-connect hidden-animation">
+                Make a statement with the top painting company in town!
+              </p>
+              <a
+                href="#cta"
+                class="btn rel-pos btn--full margin-right-sm hidden-animation"
+                >CONNECT</a
+              >
+            </div>
+
+            <!-- <a href="#how" class="btn btn--outline">Learn more &darr;</a> -->
+          </div>
+        </div>
+      </section>
+      <section class="section-offer" id="how">
+        <h2 class="heading-offer hidden-animation">WHAT WE OFFER?</h2>
+        <div class="individual-service-container">
+          <div class="marquee-heading-container">
+            <h2 class="individual-service-heading">INTERIOR PAINTING</h2>
+            <h2 class="individual-service-heading">INTERIOR PAINTING</h2>
+            <h2 class="individual-service-heading">INTERIOR PAINTING</h2>
+          </div>
+          <div class="grid-2fr">
+            <div class="display-flex">
+              <p class="service-number hidden-animation_light">01</p>
+              <div class="individual-service-heading-container">
+                <p class="service-desc-heading hidden-animation_light">
+                  INTERIOR PAINTING
+                </p>
+                <p class="service-info hidden-animation_light">
+                  You want the best work done when painting the interior of your
+                  house. Your home deserves the best professionals to provide
+                  you with the best painting services, whether it's just one
+                  accent wall or a complete renovation.
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Interior wall painting services from Paint My Walls offer you
+                  seamless, effective, and affordable solutions. We know that
+                  the right wall paint can completely change the appearance and
+                  style of your home
+                </p>
+              </div>
+            </div>
+            <div class="image-container">
+              <img
+                class="service-image-first"
+                src="img/services/firstServieBig.png"
+                alt=""
+              />
+              <img
+                class="service-image-second"
+                src="img/services/firstServieSmall.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="individual-service-container">
+          <div class="marquee-heading-container">
+            <h2 class="individual-service-heading">EXTERIOR PAINTING</h2>
+            <h2 class="individual-service-heading">EXTERIOR PAINTING</h2>
+            <h2 class="individual-service-heading">EXTERIOR PAINTING</h2>
+          </div>
+          <div class="grid-2fr">
+            <div class="display-flex">
+              <p class="service-number hidden-animation_light">02</p>
+              <div class="individual-service-heading-container">
+                <p class="service-desc-heading hidden-animation_light">
+                  EXTERIOR PAINTING
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Even though the first impression isn't always the last, it
+                  definitely sets the tone for the relationship. To add textures
+                  and patterns to your exteriors, select our exterior wall
+                  painting services.
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Utilise our suggestions to make them appear elegant and posh
+                  while making your home stand out. The luxury your walls
+                  contain inside can be complemented by painting your walls in
+                  warm, neutral colours on the outside. Make Paint My Walls your
+                  first choice for exterior your first choice for exterior
+                  decorating today!
+                </p>
+              </div>
+            </div>
+            <div class="image-container">
+              <img
+                class="service-image-first hidden-reverse-animation_light"
+                src="img/services/secondServiceBig.png"
+                alt=""
+              />
+              <img
+                class="service-image-second hidden-reverse-animation_light"
+                src="img/services/secondServiceSmall.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="individual-service-container">
+          <div class="marquee-heading-container">
+            <h2 class="individual-service-heading">COMMERCIAL PAINTING</h2>
+            <h2 class="individual-service-heading">COMMERCIAL PAINTING</h2>
+            <h2 class="individual-service-heading">COMMERCIAL PAINTING</h2>
+          </div>
+          <div class="grid-2fr">
+            <div class="display-flex">
+              <p class="service-number hidden-animation_light">03</p>
+              <div class="individual-service-heading-container">
+                <p class="service-desc-heading hidden-animation_light">
+                  COMMERCIAL PAINTING
+                </p>
+                <p class="service-info hidden-animation_light">
+                  You want the best work done when painting the interior of your
+                  house. Your home deserves the best professionals to provide
+                  you with the best painting services, whether it's just one
+                  accent wall or a complete renovation.
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Interior wall painting services from Interior wall painting
+                  services from Paint My Walls offer you seamless, effective,
+                  and affordable solutions. We know that the right wall paint
+                  can completely change the appearance and style of your home!
+                </p>
+              </div>
+            </div>
+            <div class="image-container">
+              <img
+                class="service-image-first hidden-reverse-animation_light"
+                src="img/services/thirdServiceBig.png"
+                alt=""
+              />
+              <img
+                class="service-image-second hidden-reverse-animation_light"
+                src="img/services/thirdServiceSmall.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="individual-service-container">
+          <div class="marquee-heading-container">
+            <h2 class="individual-service-heading">ARTISTIC PAINTING</h2>
+            <h2 class="individual-service-heading">ARTISTIC PAINTING</h2>
+            <h2 class="individual-service-heading">ARTISTIC PAINTING</h2>
+          </div>
+          <div class="grid-2fr">
+            <div class="display-flex">
+              <p class="service-number hidden-animation_light">04</p>
+              <div class="individual-service-heading-container">
+                <p class="service-desc-heading hidden-animation_light">
+                  ARTISTIC PAINTING
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Plain old walls are fun but cool stencil designs? They are the
+                  trend! Choose from our range of most sought-after stencil
+                  designs and patterns or custom build the design in your
+                  mind-anything you want, with Top painting India.
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Pick up the best paint work services in your town, and choose
+                  the best colours and designs for your dream home with Top
+                  Painting India.
+                </p>
+              </div>
+            </div>
+            <div class="image-container">
+              <img
+                class="service-image-first hidden-reverse-animation_light"
+                src="img/services/fourthServiceBig.png"
+                alt=""
+              />
+              <img
+                class="service-image-second hidden-reverse-animation_light"
+                src="img/services/fourthServiceSmall.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="individual-service-container">
+          <div class="marquee-heading-container">
+            <h2 class="individual-service-heading">WATERPROOFING</h2>
+            <h2 class="individual-service-heading">WATERPROOFING</h2>
+            <h2 class="individual-service-heading">WATERPROOFING</h2>
+          </div>
+          <div class="grid-2fr">
+            <div class="display-flex">
+              <p class="service-number hidden-animation_light">05</p>
+              <div class="individual-service-heading-container">
+                <p class="service-desc-heading hidden-animation_light">
+                  WATERPROOFING
+                </p>
+                <p class="service-info hidden-animation_light">
+                  You want the best work done when painting the interior of your
+                  house. Your home deserves the best professionals to provide
+                  you with the best painting services, whether it's just one
+                  accent wall or a complete renovation.
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Interior wall painting services from Paint My Walls offer you
+                  seamless, effective, and affordable solutions. We know that
+                  the right wall paint can completely change the appearance and
+                  style of your home
+                </p>
+              </div>
+            </div>
+            <div class="image-container">
+              <img
+                class="service-image-first hidden-reverse-animation_light"
+                src="img/services/fifthServiceBig.png"
+                alt=""
+              />
+              <img
+                class="service-image-second hidden-reverse-animation_light"
+                src="img/services/fifthServiceSmall.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="individual-service-container">
+          <div class="marquee-heading-container">
+            <h2 class="individual-service-heading">WOOD COATING</h2>
+            <h2 class="individual-service-heading">WOOD COATING</h2>
+            <h2 class="individual-service-heading">WOOD COATING</h2>
+          </div>
+          <div class="grid-2fr">
+            <div class="display-flex">
+              <p class="service-number hidden-animation_light">06</p>
+              <div class="individual-service-heading-container">
+                <p class="service-desc-heading hidden-animation_light">
+                  WOOD COATING
+                </p>
+                <p class="service-info hidden-animation_light">
+                  You want the best work done when painting the interior of your
+                  house. Your home deserves the best professionals to provide
+                  you with the best painting services, whether it's just one
+                  accent wall or a complete renovation.
+                </p>
+                <p class="service-info hidden-animation_light">
+                  Interior wall painting services from Paint My Walls offer you
+                  seamless, effective, and affordable solutions. We know that
+                  the right wall paint can completely change the appearance and
+                  style of your home
+                </p>
+              </div>
+            </div>
+            <div class="image-container">
+              <img
+                class="service-image-first hidden-reverse-animation_light"
+                src="img/services/sixthServiceBig.png"
+                alt=""
+              />
+              <img
+                class="service-image-second hidden-reverse-animation_light"
+                src="img/services/sixthServiceSmall.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="service-section-second-form-cta" id="cta">
+        <div class="cta-second form-container">
+          <div class="cta-second-text-box">
+            <div class="cta-second-text-box-border">
+              <h2 class="heading-form-secondary">BOOK YOUR APPOINTMENT</h2>
+              <!-- <p class="cta-text"></p> -->
+
+              <form class="cta-second-form" name="sign-up" netlify>
+                <div>
+                  <!-- <label for="full-name">Full Name</label> -->
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Name"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="email">Email address</label> -->
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="full-name">Full Name</label> -->
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Mobile"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <!-- <label for="email">Email address</label> -->
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Pincode"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <button class="btn btn--form">ENQUIRE NOW</button>
+              </form>
+            </div>
+          </div>
+          <div class="form-bubble-container">
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-1">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/calendar-day-2.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  TWO YEAR <br />
+                  WARRANTY
+                </h2>
+              </div>
+            </div>
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-2">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/pantone.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  FREE COLOUR <br />
+                  CONSULTATION
+                </h2>
+              </div>
+            </div>
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-3">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/laser-meter.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  LASER <br />
+                  MEASUREMENT
+                </h2>
+              </div>
+            </div>
+            <div class="form-bubble hidden-animation-bubble">
+              <div class="bubble bubble-1">
+                <img
+                  class="feature-icon"
+                  draggable="false"
+                  src="img/supervisor.png"
+                />
+                <h2 class="heading-second-bubble-secondary">
+                  DEDICATED <br />
+                  SUPERVISOR
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="expert-section">
+        <div class="container">
+          <p class="expert-heading">The Painting Experts</p>
+          <p class="expert-subheading">
+            Let’s talk about your painting needs, we are avaiable on call <br />
+            everyday around the week. Talk to one of our wall painting experts
+          </p>
+          <a href="#cta" class="btn btn--full margin-right-sm hidden-animation"
+            >CALL NOW</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <h2 class="footer-heading hidden-animation">JOIN US</h2>
+        <p class="footer-subheading hidden-animation">
+          in the journey of transforming spaces and creating memories
+        </p>
+
+        <div class="footer-logo-container">
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img
+                src="img/footer/instagram.png"
+                class="original-image"
+                alt=""
+              />
+              <img
+                src="img/footer/instagramWhite.png"
+                class="hover-image"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img src="img/footer/linkd.png" class="original-image" alt="" />
+              <img src="img/footer/linkdWhite.png" class="hover-image" alt="" />
+            </a>
+          </div>
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img
+                src="img/footer/youtube.png"
+                class="original-image yt-size-fix"
+                alt=""
+              />
+              <img
+                src="img/footer/youtubeWhite.png"
+                class="hover-image yt-size-fix"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="footer-logo hidden-animation">
+            <a href="/#">
+              <img
+                src="img/footer/facebook.png"
+                class="original-image fb-size-fix"
+                alt=""
+              />
+              <img
+                src="img/footer/facebookWhite.png"
+                class="hover-image fb-size-fix"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-end">
+          <div class="footer-link">
+            <div class="hidden-animation">
+              <p>CHAT WITH US</p>
+            </div>
+            <div class="footer-link-display hidden-animation">
+              <p>
+                <a href="/#">
+                  <img src="img//footer/telephone.png" />
+                  <p>+919969583396</p>
+                </a>
+              </p>
+            </div>
+            <div class="footer-link-display hidden-animation">
+              <p>
+                <a href="/#">
+                  <img src="img//footer/mail.png" />
+                  <p>Toppaintingindia@gmail.com</p>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="copyright hidden-animation">
+          Copyright &copy; <span class="year">2023</span> by TPI, Inc. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+    <button id="scroll-to-top" onclick="scrollToTop()">&uarr;</button>
+  </body>
+</html>
