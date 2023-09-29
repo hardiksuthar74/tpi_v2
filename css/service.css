@@ -126,6 +126,7 @@
   font-size: 1.8rem;
   margin-bottom: 2rem;
 }
+
 .image-container {
   position: relative;
   z-index: 2;
@@ -202,4 +203,101 @@
   font-size: 2.6rem;
   line-height: 1.6;
   margin-bottom: 4rem;
+}
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  .service-hero-img {
+    display: none;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  .section-offer {
+    padding-top: 10em;
+  }
+  .service-hero-text-box {
+    padding-bottom: 10em;
+  }
+  .heading-offer {
+    font-size: 4rem;
+    margin-bottom: 1em;
+  }
+  .individual-service-container {
+    padding: 4em 0 4em 0;
+  }
+
+  .grid-2fr {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  .image-container {
+    position: absolute;
+    max-width: 100%;
+    top: 22rem;
+  }
+
+  .service-number {
+    padding-right: 4em;
+  }
+
+  .service-image-first {
+    max-width: 80%;
+  }
+
+  .service-image-second {
+    max-width: 50%;
+    top: 20rem;
+    right: 0;
+  }
+
+  .individual-service-heading-container {
+    padding: 6rem;
+  }
+  .individual-service-heading {
+    font-size: 6rem;
+  }
+  .individual-service-heading:nth-child(2) {
+    left: 60rem;
+  }
+
+  .individual-service-heading:nth-child(3) {
+    left: 120rem;
+  }
+  .display-flex {
+    row-gap: 50em;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
 }

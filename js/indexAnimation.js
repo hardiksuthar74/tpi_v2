@@ -65,7 +65,6 @@ const increaseObserver = new IntersectionObserver(
   (entries) => {
     if (entries[0].isIntersecting) {
       increasePercentage();
-      observer.disconnect();
     }
   },
   { threshold: 0.5 } // Adjust the threshold as needed
