@@ -1362,6 +1362,16 @@
   .section-form-cta {
     padding: 4em 2em;
   }
+
+  .section-second-form-cta {
+    padding: 15em 2em;
+  }
+  .cta-second {
+    row-gap: 15em;
+  }
+  .form-percent-container {
+    margin-top: 12em;
+  }
 }
 
 /**************************/
