@@ -217,6 +217,42 @@
 /**************************/
 
 @media (max-width: 75em) {
+  .grid-2fr {
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+  }
+
+  .image-container {
+    position: absolute;
+    max-width: 100%;
+    right: 10rem;
+    left: 50rem;
+    top: 2rem;
+  }
+
+  .service-image-first {
+    max-width: 80%;
+  }
+
+  .service-image-second {
+    max-width: 100%;
+    top: 20rem;
+  }
+
+  .individual-service-heading-container {
+    padding: 6rem;
+  }
+
+  .service-info {
+    font-size: 1.6rem;
+  }
+  .service-desc-heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .individual-service-heading {
+    font-size: 6rem;
+  }
 }
 
 /**************************/
@@ -224,6 +260,69 @@
 /**************************/
 
 @media (max-width: 59em) {
+  .section-offer {
+    padding-top: 10em;
+  }
+  .service-hero-text-box {
+    padding-bottom: 20em;
+  }
+  .heading-offer {
+    font-size: 4rem;
+    margin-bottom: 1em;
+  }
+  .individual-service-container {
+    padding: 4em 0 4em 0;
+  }
+
+  .grid-2fr {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  .image-container {
+    position: absolute;
+    max-width: 100%;
+    left: auto;
+  }
+
+  .service-number {
+    padding-right: 8em;
+  }
+
+  .service-image-first {
+    max-width: 80%;
+  }
+
+  .service-image-second {
+    max-width: 50%;
+    top: 20rem;
+    right: 1.2rem;
+  }
+
+  .individual-service-heading-container {
+    padding: 6rem;
+  }
+
+  .service-info {
+    font-size: 1.6rem;
+  }
+  .service-desc-heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .individual-service-heading {
+    font-size: 6rem;
+  }
+  .individual-service-heading:nth-child(2) {
+    left: 74rem;
+  }
+
+  .individual-service-heading:nth-child(3) {
+    left: 134rem;
+  }
+  .display-flex {
+    row-gap: 36em;
+  }
 }
 
 /**************************/
@@ -261,6 +360,8 @@
     position: absolute;
     max-width: 100%;
     top: 22rem;
+    right: 0;
+    left: 0;
   }
 
   .service-number {

@@ -1267,6 +1267,7 @@
 
   .grid--5-cols {
     grid-template-columns: 1fr;
+    row-gap: 0;
   }
 
   .form-image {
@@ -1371,6 +1372,9 @@
   }
   .form-percent-container {
     margin-top: 12em;
+  }
+  .grid--5-cols {
+    row-gap: 0;
   }
 }
 
