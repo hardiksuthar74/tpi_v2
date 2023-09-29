@@ -3,7 +3,7 @@ const newObserver = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show-animation");
     } else {
-      entry.target.classList.remove("show-animation");
+      // entry.target.classList.remove("show-animation");
     }
   });
 });
@@ -17,7 +17,7 @@ const newBubbleObserver = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show-animation-bubble");
     } else {
-      entry.target.classList.remove("show-animation-bubble");
+      // entry.target.classList.remove("show-animation-bubble");
     }
   });
 });
@@ -31,7 +31,7 @@ const newLightObserver = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show-animation_light");
     } else {
-      entry.target.classList.remove("show-animation_light");
+      // entry.target.classList.remove("show-animation_light");
     }
   });
 });
@@ -44,7 +44,7 @@ const newReverseLightObserver = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       entry.target.classList.add("show-reverse-animation_light");
     } else {
-      entry.target.classList.remove("show-reverse-animation_light");
+      // entry.target.classList.remove("show-reverse-animation_light");
     }
   });
 });
@@ -54,5 +54,3 @@ const hiddenReverseLightEl = document.querySelectorAll(
 );
 
 hiddenReverseLightEl.forEach((el) => newReverseLightObserver.observe(el));
-
-console.log("tpi");

@@ -274,24 +274,32 @@
   .service-image-second {
     max-width: 50%;
     top: 20rem;
-    right: 0;
+    right: 1.2rem;
   }
 
   .individual-service-heading-container {
     padding: 6rem;
   }
+
+  .service-info {
+    font-size: 1.6rem;
+  }
+  .service-desc-heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
   .individual-service-heading {
     font-size: 6rem;
   }
   .individual-service-heading:nth-child(2) {
-    left: 60rem;
+    left: 74rem;
   }
 
   .individual-service-heading:nth-child(3) {
-    left: 120rem;
+    left: 134rem;
   }
   .display-flex {
-    row-gap: 50em;
+    row-gap: 56em;
   }
 }
 

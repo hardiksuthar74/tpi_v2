@@ -422,7 +422,7 @@
 .feature img {
   padding: 1.8rem;
   width: 100%;
-  height: 80%;
+  /* height: 80%; */
 }
 
 .feature-text {
@@ -1349,11 +1349,18 @@
   .form-bubble:nth-child(4) {
     position: sticky;
   }
+  .percentage {
+    padding: 0;
+  }
   .heading-second-form-secondary {
     font-size: 6rem;
   }
   .percent-sign {
     font-size: 4rem;
+  }
+
+  .section-form-cta {
+    padding: 4em 2em;
   }
 }
 
@@ -1363,13 +1370,13 @@
 
 @media (max-width: 34em) {
   .section-description {
-    padding-top: 2rem;
+    padding: 2rem;
   }
   .heading-description {
     text-align: left;
   }
 
   .heading-creativity {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 }
