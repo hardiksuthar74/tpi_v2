@@ -1,11 +1,11 @@
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("../img/plan/planbg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
   color: #fff;
+  position: relative;
 }
 
 a {
@@ -86,4 +86,56 @@ a {
   background-color: #b5f145;
   border: 1px;
   border-radius: 1rem;
+}
+
+@media (max-width: 44em) {
+  .main-detail {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  .plan-info {
+    padding-right: 0;
+    padding: 6rem 0;
+  }
+
+  .plan-container {
+    text-align: center;
+  }
+
+  .button button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 1rem;
+  }
+
+  .main-title,
+  .plan-info {
+    font-size: 2rem;
+    margin: 0 auto;
+  }
+
+  .icon-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 2rem;
+  }
+
+  .arrow-container {
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+  }
+
+  .detail {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    place-items: center;
+    gap: 1rem;
+    > img {
+      width: 100%;
+    }
+  }
 }
