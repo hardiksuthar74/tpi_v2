@@ -1356,9 +1356,9 @@
     column-gap: 4rem;
   }
   .arrow-top-service {
-    width: 5rem;
+    /* width: 5rem;
     left: 4rem;
-    right: 0;
+    right: 0; */
   }
 
   .div:nth-child(1) {
@@ -1377,14 +1377,18 @@
   .top-service-grid {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 10rem;
+    row-gap: 6rem;
   }
 
   .border-service {
     font-size: 2rem;
-    border: 3px solid #151515;
-    padding: 2.4rem;
+    border: 1px solid #151515;
+    padding: 1.4rem;
     border-radius: 1rem;
+  }
+
+  .alternate-service .border-service {
+    border: 1px solid #b5f145;
   }
 
   .main-video-grid {
