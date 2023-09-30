@@ -1251,7 +1251,7 @@
   .top-service-flex {
     grid-row: -1;
     text-align: center;
-    margin-bottom: 14rem;
+    margin-bottom: 6rem;
     margin-top: 6rem;
     color: #151515;
   }
@@ -1346,16 +1346,18 @@
 
   .div {
     width: 100%;
+    /* margin: 0 auto; */
     /* height: 20%; */
-    padding: 0.4rem 0rem !important;
-    transform: rotate(90deg);
+    padding: 2rem 2rem !important;
+    /* transform: rotate(90deg); */
     display: block;
+    margin-top: 2rem;
   }
 
   .top-service-inside,
   .number-top-service,
   .arrow-top-service {
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
     opacity: 1;
   }
 
@@ -1370,13 +1372,14 @@
   .fs-5 {
     font-weight: 600;
     font-size: 4rem;
+    margin-top: 2rem;
   }
 
   .top-service-inside {
     margin-left: 2rem;
-    margin-bottom: 6rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    /* margin-bottom: 6rem; */
+    /* padding-right: 2rem; */
+    /* padding-left: 2rem; */
     column-gap: 4rem;
   }
   .arrow-top-service {
@@ -1401,7 +1404,8 @@
   .top-service-grid {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 6rem;
+    row-gap: 4rem;
+    padding: 2rem;
   }
 
   .border-service {
