@@ -1443,14 +1443,14 @@
   }
 
   .bubble h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 
   .form-bubble:nth-child(1),
   .form-bubble:nth-child(2),
   .form-bubble:nth-child(3),
   .form-bubble:nth-child(4) {
-    position: sticky;
+    position: static;
   }
   .percentage {
     padding: 0;
@@ -1469,8 +1469,11 @@
   .section-second-form-cta {
     padding: 15em 2em;
   }
+  .form-bubble div img {
+    padding: 2.2rem;
+  }
   .cta-second {
-    row-gap: 15em;
+    row-gap: 10em;
   }
   .form-percent-container {
     margin-top: 12em;
@@ -1526,6 +1529,18 @@
   .third-service,
   .fourth-service {
     font-size: 3rem;
+  }
+
+  .form-bubble-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+  }
+
+  .bubble {
+    max-width: 120px;
+    height: 120px;
   }
 }
 
