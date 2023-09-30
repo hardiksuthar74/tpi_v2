@@ -1107,7 +1107,7 @@
 }
 
 .youtube-link {
-  width: 36rem;
+  width: 30rem;
   min-height: 56rem;
   border-radius: 2rem;
   border: 2px solid black;
@@ -1130,7 +1130,7 @@
 }
 
 .btn-download:hover {
-  color: #8f8f8f;
+  color: #fff;
 }
 
 .section-information {

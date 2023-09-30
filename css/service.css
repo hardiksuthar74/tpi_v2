@@ -205,6 +205,30 @@
   margin-bottom: 4rem;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.btn--book-now:link,
+.btn--book-now:visited {
+  color: #151515;
+  border: 2px solid #b5f145;
+  background-color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.6rem 3.2rem;
+  border-radius: 4rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn--book-now:hover {
+  color: #b7b7b7;
+}
+
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/
