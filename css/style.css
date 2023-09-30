@@ -80,8 +80,8 @@
   position: absolute;
   margin: 0 auto;
   max-width: 100rem;
-  top: 10em;
-  bottom: auto;
+  /* top: 12rem; */
+  bottom: 0;
   right: 0;
   z-index: 1;
 }
@@ -1385,6 +1385,50 @@
     row-gap: 0;
   }
 
+  .first-service {
+    background-image: url("../img/interior-service.png");
+  }
+  .second-service {
+    background-image: url("../img/exterior-service.png");
+  }
+  .third-service {
+    background-image: url("../img/wood-service.png");
+  }
+  .fourth-service {
+    background-image: url("../img/walltexture-service.png");
+  }
+
+  .first-service,
+  .second-service,
+  .third-service,
+  .fourth-service {
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .first-service::before,
+  .second-service::before,
+  .third-service::before,
+  .fourth-service::before {
+    opacity: 1;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+  }
+
+  .first-service:hover,
+  .second-service:hover,
+  .third-service:hover,
+  .fourth-service:hover {
+    > p {
+      opacity: 1;
+    }
+  }
   .third-service,
   .fourth-service {
     font-size: 3rem;
