@@ -82,7 +82,7 @@
 
 .image-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 2rem;
   row-gap: 2rem;
   max-width: 120em;
@@ -98,10 +98,6 @@
     width: 100%;
     border-radius: 2rem;
   }
-}
-
-.last-image {
-  grid-column: 1/4;
 }
 
 .hidden-animation-bubble {
@@ -170,4 +166,14 @@
 /**************************/
 
 @media (max-width: 34em) {
+}
+
+.section-work-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.last-image {
+  grid-column: 1/3;
 }
