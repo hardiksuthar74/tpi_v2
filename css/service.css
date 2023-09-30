@@ -208,6 +208,7 @@
 .btn-container {
   display: flex;
   justify-content: flex-start;
+  margin-top: 3rem;
 }
 
 .btn--book-now:link,
