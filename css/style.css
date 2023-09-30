@@ -1391,6 +1391,11 @@
   .grid--5-cols {
     row-gap: 0;
   }
+
+  .third-service,
+  .fourth-service {
+    font-size: 3rem;
+  }
 }
 
 /**************************/
@@ -1406,6 +1411,6 @@
   }
 
   .heading-creativity {
-    font-size: 6rem;
+    font-size: 6.4rem;
   }
 }
