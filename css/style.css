@@ -1443,7 +1443,11 @@
   }
 
   .bubble h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+  .feature-icon {
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .form-bubble:nth-child(1),
@@ -1451,6 +1455,9 @@
   .form-bubble:nth-child(3),
   .form-bubble:nth-child(4) {
     position: static;
+  }
+  .form-container {
+    padding: 0;
   }
   .percentage {
     padding: 0;
@@ -1470,7 +1477,7 @@
     padding: 15em 2em;
   }
   .form-bubble div img {
-    padding: 2.2rem;
+    padding: 2.4rem;
   }
   .cta-second {
     row-gap: 10em;
@@ -1539,8 +1546,14 @@
   }
 
   .bubble {
-    max-width: 120px;
-    height: 120px;
+    max-width: 150px;
+    height: 150px;
+  }
+
+  .landing-image-container {
+    grid-template-columns: 1fr;
+    padding: 4rem;
+    row-gap: 3rem;
   }
 }
 
