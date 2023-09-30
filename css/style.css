@@ -263,7 +263,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   opacity: 0;
   transition: opacity 0.3s ease-in;
   border-radius: 3.8rem;
@@ -275,7 +274,7 @@
 
 .first-service:hover {
   > p {
-    display: none;
+    opacity: 0;
   }
 }
 
@@ -306,7 +305,7 @@
 
 .second-service:hover {
   > p {
-    display: none;
+    opacity: 0;
   }
 }
 
@@ -338,7 +337,7 @@
 
 .third-service:hover {
   > p {
-    display: none;
+    opacity: 0;
   }
 }
 
@@ -372,7 +371,7 @@
 
 .fourth-service:hover {
   > p {
-    display: none;
+    opacity: 0;
   }
 }
 
@@ -1258,11 +1257,27 @@
 
 @media (max-width: 44em) {
   .hero-img-container {
-    display: none;
+    width: 50rem;
+    position: sticky;
+    margin-top: -20rem;
+  }
+
+  .hero-text-box {
+    position: relative;
+    z-index: 22;
+    margin-top: -10rem;
+    padding: 10rem 6rem 4rem;
+  }
+  .our-service-container {
+    margin-bottom: 4rem;
+  }
+
+  .hero-connect {
+    font-size: 3rem;
   }
 
   .heading-service {
-    font-size: 6rem;
+    font-size: 10rem;
   }
 
   .grid--5-cols {
