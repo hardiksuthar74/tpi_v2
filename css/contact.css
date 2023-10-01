@@ -151,6 +151,10 @@
   letter-spacing: 1px;
 }
 
+.office-address {
+  font-size: 1.4rem;
+}
+
 .location {
   width: 10%;
 }
