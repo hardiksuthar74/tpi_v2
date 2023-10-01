@@ -310,11 +310,12 @@
   }
 
   .footer-heading {
-    font-size: 4rem;
+    font-size: 4.6rem;
   }
 
   .footer-subheading {
     font-size: 1.6rem;
+    line-height: 1.5;
   }
 
   .footer-link {

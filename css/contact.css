@@ -167,9 +167,7 @@
 }
 
 #map {
-  flex: 1;
   height: 100%;
-  background-color: var(--color-light--1);
 }
 
 .map-link {
@@ -214,6 +212,15 @@
   }
   .message {
     grid-column: 1;
+  }
+
+  .map-container {
+    grid-template-columns: 1fr;
+    row-gap: 6rem;
+  }
+
+  #map {
+    height: 30rem;
   }
 }
 
