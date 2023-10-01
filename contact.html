@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="css/queries.css" />
     <link rel="stylesheet" href="css/image.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/loader.css" />
 
     <script
       type="module"
@@ -52,6 +53,14 @@
     <title>TPI</title>
   </head>
   <body>
+    <div class="wrapper">
+      <div class="loader-container">
+        <div class="roller">
+          <div class="handle"></div>
+        </div>
+        <div class="paint"></div>
+      </div>
+    </div>
     <header class="header">
       <a href="/">
         <img class="logo" alt="Omnifood logo" src="img/tpi_logo/tpi_logo.png" />
@@ -235,5 +244,11 @@
       </div>
     </footer>
     <button id="scroll-to-top" onclick="scrollToTop()">&uarr;</button>
+    <script>
+      window.addEventListener("load", function () {
+        const loader = document.querySelector(".wrapper");
+        loader.style.display = "none";
+      });
+    </script>
   </body>
 </html>

@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- <link rel="stylesheet" href="css/queries.css" /> -->
     <link rel="stylesheet" href="css/image.css" />
-
+    <link rel="stylesheet" href="css/loader.css" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
@@ -51,6 +51,14 @@
     <title>TPI</title>
   </head>
   <body>
+    <div class="wrapper">
+      <div class="loader-container">
+        <div class="roller">
+          <div class="handle"></div>
+        </div>
+        <div class="paint"></div>
+      </div>
+    </div>
     <header class="header">
       <a href="./">
         <img class="logo" alt="Omnifood logo" src="img/tpi_logo/tpi_logo.png" />
@@ -85,7 +93,6 @@
           </div>
           <div class="hero-img-container">
             <img
-              id="fade-image"
               src="img/hero.png"
               draggable="false"
               class="hero-img"
@@ -774,5 +781,12 @@
       </div>
     </footer>
     <button id="scroll-to-top" onclick="scrollToTop()">&uarr;</button>
+
+    <script defer>
+      window.addEventListener("load", function () {
+        const loader = document.querySelector(".wrapper");
+        loader.style.display = "none";
+      });
+    </script>
   </body>
 </html>
