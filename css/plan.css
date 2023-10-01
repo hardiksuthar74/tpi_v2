@@ -59,6 +59,8 @@ a {
   height: 56px;
   border-radius: 50%;
   position: absolute;
+  left: 4rem;
+  top: 4rem;
 }
 
 .icon-container {
@@ -171,7 +173,8 @@ a {
 @media (max-width: 44em) {
   .main-detail {
     grid-template-columns: 1fr;
-    position: relative;
+    place-items: center;
+    padding-bottom: 4rem;
   }
 
   .plan-info {
@@ -183,29 +186,15 @@ a {
     text-align: center;
   }
 
-  .button button {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    margin: 1rem;
+  .button {
+    bottom: 4rem;
+    margin-right: 5rem;
   }
 
   .main-title,
   .plan-info {
     font-size: 2rem;
     margin: 0 auto;
-  }
-
-  .icon-container {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .arrow-container {
-    position: absolute;
-    left: 0;
-    margin-left: 1rem;
   }
 
   .detail {
