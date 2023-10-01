@@ -46,12 +46,12 @@
 }
 @-webkit-keyframes roller {
   40% {
-    top: 55px;
+    top: 50px;
   }
 }
 @keyframes roller {
   40% {
-    top: 55px;
+    top: 50px;
   }
 }
 .roller:before {
