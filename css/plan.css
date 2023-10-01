@@ -177,9 +177,19 @@ a {
     padding-bottom: 4rem;
   }
 
+  .icon-container {
+    > img {
+      width: 80%;
+    }
+  }
+
+  .border-service {
+    margin-bottom: 2rem;
+  }
+
   .plan-info {
     padding-right: 0;
-    padding: 6rem 0;
+    padding: 12rem 0;
   }
 
   .plan-container {
@@ -188,12 +198,14 @@ a {
 
   .button {
     bottom: 4rem;
-    margin-right: 5rem;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
   }
 
   .main-title,
   .plan-info {
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 0 auto;
   }
 
