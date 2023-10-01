@@ -23,8 +23,8 @@
   transform: rotate(-45deg);
 }
 .roller {
-  height: 40px;
-  width: 100px;
+  height: 20px;
+  width: 50px;
   border-radius: 7px;
   background-image: -webkit-gradient(
     linear,
@@ -46,20 +46,20 @@
 }
 @-webkit-keyframes roller {
   40% {
-    top: 105px;
+    top: 55px;
   }
 }
 @keyframes roller {
   40% {
-    top: 105px;
+    top: 55px;
   }
 }
 .roller:before {
   position: absolute;
   content: "";
   /* background-color: #111; */
-  height: 7px;
-  width: 75px;
+  height: 4px;
+  width: 45px;
   top: 8px;
   left: 8px;
   border-radius: 10px;
@@ -67,37 +67,37 @@
 .roller:after {
   position: absolute;
   content: "";
-  height: 40px;
-  width: 85px;
+  height: 20px;
+  width: 25px;
   border: 7px solid #fff;
   border-left: none;
-  right: -20px;
-  top: 20px;
+  right: -16px;
+  top: 6px;
   z-index: -1;
   border-radius: 7px;
 }
 .handle {
-  height: 30px;
+  height: 10px;
   width: 7px;
   background-color: #fff;
   position: absolute;
-  top: 68px;
-  right: 65px;
+  top: 32px;
+  right: 10px;
 }
 .handle:after {
   position: absolute;
   content: "";
-  height: 75px;
-  width: 25px;
+  height: 40px;
+  width: 10px;
   background-color: #fff;
-  bottom: -75px;
-  right: -8px;
+  bottom: -35px;
+  right: -1px;
   border-radius: 5px;
 }
 .paint {
   background-color: #b5f145;
   height: 0;
-  width: 100px;
+  width: 50px;
   position: absolute;
   margin: auto;
   left: 0;
@@ -108,18 +108,18 @@
 }
 @-webkit-keyframes paint {
   40% {
-    height: 105px;
+    height: 55px;
   }
 }
 @keyframes paint {
   40% {
-    height: 105px;
+    height: 55px;
   }
 }
 
 @media (max-width: 44em) {
   .loader-container {
-    left: 25% !important;
-    top: 50% !important;
+    left: 40% !important;
+    /* top: 50% !important; */
   }
 }
