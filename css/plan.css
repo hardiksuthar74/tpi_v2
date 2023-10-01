@@ -1,4 +1,4 @@
-body {
+.diamondbg {
   min-height: 100vh;
   background-image: url("../img/plan/planbg.png");
   background-position: center;
@@ -6,6 +6,35 @@ body {
   background-size: cover;
   color: #fff;
   position: relative;
+}
+
+.goldbg {
+  min-height: 100vh;
+  background-image: url("../img/plan/golbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.platbg {
+  min-height: 100vh;
+  background-image: url("../img/plan/platbg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+.border-service {
+  margin-top: 2rem;
+  font-size: 2rem;
+  border: 3px solid #fff;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  display: inline-block;
 }
 
 a {
@@ -17,10 +46,8 @@ a {
   max-width: 140rem;
   margin: 0 auto;
   padding: 4rem;
+  padding-bottom: 0;
   font-size: 3rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
 }
 
 .arrow-container {
@@ -31,10 +58,16 @@ a {
   width: 56px;
   height: 56px;
   border-radius: 50%;
+  position: absolute;
 }
 
 .icon-container {
-  width: 8rem;
+  width: 6rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 4rem;
+  margin-right: 4rem;
 
   > img {
     width: 100%;
@@ -42,8 +75,9 @@ a {
 }
 
 .plan-info {
-  padding-right: 20rem;
-  margin-top: 2rem;
+  padding: 0 20rem;
+  padding-bottom: 0;
+  /* margin-top: 2rem; */
   font-size: 4rem;
 }
 
@@ -51,6 +85,34 @@ a {
   color: #b5f145;
   font-size: 5rem;
   font-weight: 500;
+  color: #fff;
+}
+
+.diamond {
+  background: url(../img/diamond.jpg) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.platinum {
+  background: url(../img/platinum.jpg) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+}
+
+.gold {
+  background: url(../img/gold.jpg) no-repeat center center;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
 }
 
 .main-detail {
@@ -62,11 +124,18 @@ a {
   row-gap: 4rem;
 }
 
+.sub-title {
+  font-size: 2rem;
+  font-weight: 100;
+  letter-spacing: 0.2px;
+}
+
 .detail {
   width: 200px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  line-height: 1.2;
 
   > img {
     width: 24%;
@@ -80,7 +149,18 @@ a {
   gap: 50rem;
 }
 
-.button button {
+.button {
+  position: absolute;
+  right: 0;
+  bottom: 6rem;
+  margin-right: 4rem;
+}
+
+.book {
+  color: #151515;
+}
+
+.button a {
   font-size: 1.8rem;
   padding: 1.2rem 2rem;
   background-color: #b5f145;
@@ -120,7 +200,6 @@ a {
     position: absolute;
     right: 0;
     top: 0;
-    margin: 2rem;
   }
 
   .arrow-container {

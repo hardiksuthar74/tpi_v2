@@ -28,6 +28,7 @@
 
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/plan.css" />
+    <link rel="stylesheet" href="css/loader.css" />
 
     <script
       type="module"
@@ -45,18 +46,29 @@
 
     <title>TPI</title>
   </head>
-  <body>
+  <body class="platbg">
+    <div class="wrapper">
+      <div class="loader-container">
+        <div class="roller">
+          <div class="handle"></div>
+        </div>
+        <div class="paint"></div>
+      </div>
+    </div>
     <div class="plan-container">
       <div class="arrow-container">
         <a href="./index.html#top-service">&larr;</a>
       </div>
       <div class="plan-info">
-        <p class="main-title">TOP DIAMOND</p>
+        <p class="main-title platinum">TOP PLATINUM</p>
         <p class="sub-title">PAINTING SERVICES</p>
+        <div class="border-service">
+          <p>50rs/sqft</p>
+        </div>
         <div class="main-detail">
           <div class="detail">
             <img src="./img/plan/sanitizer.png" alt="" />
-            <p>Top pest control for (3 years)</p>
+            <p>Top pest control + 1 year</p>
           </div>
           <div class="detail">
             <img src="./img/plan/temp.png" alt="" />
@@ -64,34 +76,33 @@
           </div>
           <div class="detail">
             <img src="./img/plan/paint.png" alt="" />
-            <p>Top luxury high finish point</p>
-          </div>
-          <div class="detail">
-            <img src="./img/plan/painting.png" alt="" />
-            <p>Top one wall make over</p>
+            <p>Top semi luxury finish paint</p>
           </div>
           <div class="detail">
             <img src="./img/plan/clean.png" alt="" />
-            <p>Top hygiene cleaning by godrej hycare</p>
+            <p>Top hygiene cleaning (Standard)</p>
           </div>
           <div class="detail">
             <img src="./img/plan/pallet.png" alt="" />
-            <p>Top colour consultancy services</p>
-          </div>
-          <div class="detail">
-            <img src="./img/plan/video-camera.png" alt="" />
-            <p>Free photo and video shoot</p>
+            <p>Top colour consultancy</p>
           </div>
         </div>
       </div>
       <div class="book-container">
         <div class="icon-container">
-          <img src="./img/plan/diamond.png" alt="" />
+          <img src="./img/plan/platinum.png" alt="" />
         </div>
         <div class="button">
-          <button>BOOK NOW</button>
+          <a href="./contact.html" class="book"> BOOK NOW </a>
         </div>
       </div>
     </div>
+
+    <script>
+      window.addEventListener("load", function () {
+        const loader = document.querySelector(".wrapper");
+        loader.style.display = "none";
+      });
+    </script>
   </body>
 </html>
