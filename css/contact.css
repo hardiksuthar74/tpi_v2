@@ -124,6 +124,49 @@
   transform: translateY(0);
 }
 
+.hero-connect-2 a {
+  text-decoration: none;
+  color: #151515;
+}
+
+.map-container {
+  padding: 8rem 5rem;
+  max-width: 140rem;
+  margin: 0 auto;
+  min-height: 60rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 2rem;
+  color: #151515;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.location {
+  width: 10%;
+}
+.office {
+  font-weight: 700;
+  font-size: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#map {
+  flex: 1;
+  height: 100%;
+  background-color: var(--color-light--1);
+}
+
 /**************************/
 /* BELOW 1344px (Smaller desktops) */
 /**************************/

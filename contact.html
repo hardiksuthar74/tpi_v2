@@ -26,6 +26,18 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/queries.css" />
@@ -62,7 +74,7 @@
       </div>
     </div>
     <header class="header">
-      <a href="/">
+      <a href="index.html">
         <img class="logo" alt="Omnifood logo" src="img/tpi_logo/tpi_logo.png" />
       </a>
 
@@ -101,22 +113,24 @@
                 Let's add colour to your space
               </p>
               <p class="hero-connect-2 hidden-animation">
-                Start A Project → Toppaintingindia@gmail.com
+                <a href="mailto:toppaintingindia@gmail.com">
+                  Start A Project → toppaintingindia@gmail.com
+                </a>
               </p>
               <p class="hero-connect-2 hidden-animation">
-                Call Us → (+91)9969583396
+                <a href="tel:9969583396"> Call Us → (+91)9969583396 </a>
               </p>
               <div class="form-contact">
                 <p class="hero-connect hidden-animation">Write To Us</p>
                 <div class="contact-form-container">
                   <div>
-                    <input placeholder="Name" />
+                    <input type="text" placeholder="Name" />
                   </div>
                   <div>
-                    <input placeholder="Email Address" />
+                    <input type="email" placeholder="Email Address" />
                   </div>
                   <div>
-                    <input placeholder="Phone Number" />
+                    <input type="text" placeholder="Phone Number" />
                   </div>
                   <div class="message">
                     <textarea
@@ -137,6 +151,18 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="map-container">
+        <div class="address">
+          <img class="location" src="./img/location.png" alt="location" />
+          <p class="office">MUMBAI OFFICE</p>
+          <p>
+            Shop No 1, Dharam Palace, Mahatma Gandhi Rd, opposite axis bank,
+            Ghatkopar, Ghatkopar West, Mumbai, Maharashtra 400086
+          </p>
+        </div>
+        <div id="map"></div>
       </section>
     </main>
 
