@@ -1344,6 +1344,7 @@
   .fourth-service {
     grid-column: 1;
   }
+
   .heading-creativity {
     font-size: 8rem;
   }
@@ -1575,6 +1576,10 @@
 
   .mob-text-fix {
     color: #151515 !important;
+  }
+
+  .heading-service-secondary {
+    font-size: 7.4rem;
   }
 }
 
