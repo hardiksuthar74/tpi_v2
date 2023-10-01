@@ -1291,14 +1291,14 @@
     position: relative;
     z-index: 22;
     margin-top: -6rem;
-    padding: 10rem 6rem 4rem;
+    padding: 10rem 4rem 4rem;
   }
   .our-service-container {
     margin-bottom: 4rem;
   }
 
   .hero-connect {
-    font-size: 3rem;
+    font-size: 2.4rem;
   }
 
   .heading-service {
@@ -1551,8 +1551,8 @@
   }
 
   .bubble {
-    max-width: 170px;
-    height: 170px;
+    max-width: 160px;
+    height: 160px;
   }
 
   .landing-image-container {
@@ -1571,6 +1571,10 @@
 
   .mob-fix {
     width: 50% !important;
+  }
+
+  .mob-text-fix {
+    color: #151515 !important;
   }
 }
 

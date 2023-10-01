@@ -168,6 +168,7 @@
 
 #map {
   height: 100%;
+  z-index: 1;
 }
 
 .map-link {
@@ -221,6 +222,18 @@
 
   #map {
     height: 30rem;
+  }
+
+  .hero-connect-2 {
+    font-size: 2rem;
+  }
+
+  .hero-connect {
+    font-size: 3.2rem;
+  }
+
+  .contact-form-container input {
+    font-size: 1.8rem;
   }
 }
 
