@@ -20,5 +20,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
 
 L.marker([19.0821526, 72.9026632])
   .addTo(map)
-  .bindPopup("Top Painting India")
+  .bindPopup(
+    "<a class='map-link' target='_blank' href='https://www.google.com/maps/place/Ambika+Paints/@19.0875529,72.903177,17z/'>Top Painting India</a>"
+  )
   .openPopup();
