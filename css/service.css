@@ -457,6 +457,13 @@
   .mob-hide {
     display: none !important;
   }
+  .section-offer {
+    padding-bottom: 0;
+  }
+
+  .service-section-second-form-cta {
+    padding: 15em 2em;
+  }
 }
 
 /**************************/
