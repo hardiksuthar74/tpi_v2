@@ -1382,11 +1382,11 @@
     /* padding-left: 2rem; */
     column-gap: 4rem;
   }
-  .arrow-top-service {
-    /* width: 5rem;
+  /* .arrow-top-service {
+    width: 5rem;
     left: 4rem;
-    right: 0; */
-  }
+    right: 0; 
+  } */
 
   .div:nth-child(1) {
     border-radius: 6rem;

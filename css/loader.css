@@ -3,22 +3,21 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: #000;
   z-index: 119999;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .loader-container {
   position: absolute;
-  transform: translateX(-50%);
-  transform: translateY(-50%);
-  left: 50%;
+  transform: translateX(-40%);
+  transform: translateY(-40%);
+  left: 45%;
   top: 50%;
-  margin-top: 40px;
-  margin-left: -100px;
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
@@ -115,5 +114,12 @@
 @keyframes paint {
   40% {
     height: 105px;
+  }
+}
+
+@media (max-width: 44em) {
+  .loader-container {
+    left: 25% !important;
+    top: 50% !important;
   }
 }
