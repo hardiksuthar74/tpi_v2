@@ -1150,6 +1150,43 @@
   margin-bottom: 4rem;
 }
 
+.section-brand {
+  padding: 4rem 0 8rem;
+  text-align: center;
+}
+
+.brand-logo-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2fr;
+  place-items: center;
+}
+
+.image-container-brand {
+  > img {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+.dulux-size-fix {
+  width: 24rem;
+}
+
+.global-size-fix {
+  width: 16rem;
+}
+
+.asian-size-fix {
+  width: 30rem;
+  margin-right: -20px;
+}
+
+.logo-brand-header h2 {
+  font-size: 2.6rem;
+  margin-bottom: 4rem;
+}
+
 @keyframes marqueeSecond {
   0% {
     transform: translateX(20%);
@@ -1580,6 +1617,15 @@
 
   .heading-service-secondary {
     font-size: 7.4rem;
+  }
+
+  .brand-logo-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .asian-size-fix {
+    /* width: 30rem; */
+    margin-right: 0px;
   }
 }
 
